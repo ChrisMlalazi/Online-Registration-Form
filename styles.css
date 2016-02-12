@@ -1,0 +1,278 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f5deb3;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.color {
+  background-color: black;
+  font: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0;
+  text-align: center;
+  border-top: 1px solid yellow;
+}
+
+.color h2 {
+  color: white;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.news {
+   margin-left: 20px;
+   text-align: center;
+ 
+}
+
+
+.header {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#zip{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+input:placeholder-shown {
+  text-align: right;
+  font-style: italic;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+input:focus {
+    background-color: #d3d3d3;
+}
+
+textarea:focus {
+    background-color: #d3d3d3;
+}
+
+#zip:focus {
+    background-color: #d3d3d3;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #808080;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.line {
+
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	margin-bottom: 0;
+
+}
+
+button:hover {
+  background-color: green;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+hr {
+
+	max-width: 600px;
+	margin-bottom: 30px;
+	margin-top: 1px;
+}
+
+.letter {
+ font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+#zip {
+  margin-bottom: 2px;
+}
+
+#javascript {
+
+  margin-bottom: 25px;
+}
+
+#plain_text{
+
+  margin-bottom: 25px;
+}
+
+
+.submit{
+  margin-bottom: 25px;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+
+/************************************
+MEDIA QUERY DESKTOP
+*************************************/
+
+
+@media screen and (min-width: 760px) {
+
+  .field label {
+
+float: left;
+
+width: 8em;
+
+margin-right: 1em;
+
+}
+
+form {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+hr {
+
+  max-width: 800px;
+  margin-bottom: 30px;
+  margin-top: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin-left: -20px;
+  outline: 0;
+  padding: 15px;
+  width: 81.5%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+textarea {
+  color: black;
+  border-bottom: 2px solid green;
+  width: 100%;
+}
+
+input[type="zip"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input:focus {
+    background-color: #d3d3d3;
+}
+
+}
