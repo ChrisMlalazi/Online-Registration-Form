@@ -64,11 +64,11 @@
 </fieldset>
        <fieldset>
 
-        <legend>Sex</legend>
+        <label>Gender</label>
 
-      <input type="radio" name="sex" value="male">Male<br>
-      <input type="radio" name="sex" value="female">Female<br>
-      <input type="radio" name="sex" value="other">Other
+      <input type="radio" id="male" value="male_gender" name="user_gender"><label for="male" class="light">Male</label><br>
+      <input type="radio" id="female" value="female_gender" name="user_gender"><label for="female" class="light">Female</label><br>
+      <input type="radio" id="other" value="other_gender" name="user_gender"><label for="other" class="light">Other</label>
 
       </fieldset>
   		 
@@ -89,7 +89,7 @@
 	   	<input type="radio" id="html_format" value="HTML" name="user_format"><label for="html_format" class="light">HTML</label><br>
 	   	<input type="radio" id="plain_text" value="plain_text" name="user_format"><label for="plain_text" class="light">Plain Text</label>
 
-	   	 <label>Other topics you would like to hear about</label>
+	   	 <label for="bio">Other topics you would like to hear about</label>
           <textarea id="bio" name="user_bio"></textarea>	
 
     
