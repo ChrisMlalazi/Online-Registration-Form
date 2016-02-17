@@ -9,7 +9,7 @@ body {
 }
 
 form {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 10px 20px;
   border-radius: 8px;
@@ -70,13 +70,17 @@ select {
   height: auto;
   outline: 0;
   padding: 15px;
-  width: 50%;
+  width: 10%;
+  display: block;
+  margin-left: 10px;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   cursor: pointer;
 }
+
+
 
 
 input::-webkit-input-placeholder {
@@ -138,17 +142,19 @@ button {
   text-align: center;
   font-style: normal;
   border-radius: 5px;
-  width: 100%;
+  width: 98%;
   border: 1px solid #3ac162;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 25px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
 fieldset {
   margin-bottom: 30px;
   border: none;
+  
 }
 
 .line {
@@ -156,6 +162,7 @@ fieldset {
 	font-weight: bold;
 	border-bottom: 2px solid black;
 	margin-bottom: 0;
+  width: 100%;
 
 }
 
@@ -172,9 +179,10 @@ legend {
 
 hr {
 
-	max-width: 600px;
+	max-width: 100%;
 	margin-bottom: 30px;
 	margin-top: 1px;
+
 }
 
 .letter {
@@ -225,28 +233,33 @@ MEDIA QUERY DESKTOP
 *************************************/
 
 
+
+
 @media screen and (min-width: 760px) {
+
 
   .field label {
 
 float: left;
 
-width: 8em;
+width: 30%;
 
-margin-right: 1em;
+display: inline-block;
 
 }
 
+
+
 form {
-  max-width: 70%;
-  margin: 0 auto;
+  max-width: 80%;
+  margin: 0 60px;
   padding: 10px 20px;
   border-radius: 8px;
 }
 
 hr {
 
-  max-width: 800px;
+  max-width: 100%;
   margin-bottom: 30px;
   margin-top: 1px;
 }
@@ -260,20 +273,22 @@ select {
   border: none;
   font-size: 16px;
   height: auto;
-  margin-left: -20px;
   outline: 0;
-  padding: 15px;
-  width: 81.5%;
+  padding-top: 15px; 
+  width: 70%;
   background-color: #e8eeef;
   color: black;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
+
 }
+
 
 textarea {
   color: black;
   border-bottom: 2px solid green;
   width: 100%;
+  margin: 0;
 }
 
 input[type="zip"] {
@@ -284,7 +299,7 @@ input[type="zip"] {
   margin: 0;
   outline: 0;
   padding: 15px;
-  width: 50%;
+  width: 20%;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
@@ -293,6 +308,10 @@ input[type="zip"] {
 
 input:focus {
     background-color: #d3d3d3;
+}
+
+.news {
+  margin-top: 50px;
 }
 
 

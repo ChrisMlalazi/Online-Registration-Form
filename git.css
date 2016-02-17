@@ -1,0 +1,74 @@
+
+
+@media screen and (min-width: 760px) {
+
+  .field label {
+
+float: left;
+
+width: 8em;
+
+margin-right: 1em;
+
+}
+
+form {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+hr {
+
+  max-width: 800px;
+  margin-bottom: 30px;
+  margin-top: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin-left: -20px;
+  outline: 0;
+  padding: 15px;
+  width: 81.5%;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+textarea {
+  color: black;
+  border-bottom: 2px solid green;
+  width: 100%;
+}
+
+input[type="zip"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input:focus {
+    background-color: #d3d3d3;
+}
+
+
+}

@@ -1,0 +1,95 @@
+  .field label {
+
+float: left;
+
+width: 25%;
+height: 10px;
+
+margin-right: 1em;
+margin-bottom: 60px;
+
+}
+
+
+
+
+
+body {
+
+  background-color: red;
+}
+
+form {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+
+hr {
+
+  max-width: 100%;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  margin-left: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="zip"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0 auto;
+  outline: 0;
+  padding: 15px;
+  max-width: 65%;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  float: right;
+}
+
+
+
+textarea {
+  color: black;
+  border-bottom: 2px solid green;
+  width: 100%;
+  margin: 0;
+}
+
+input[type="zip"] {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input:focus {
+    background-color: #d3d3d3;
+}
+
+
+label .zipper {
+  color: yellow;
+ max-width: 20%;
+ display: inline-block;
+}
+
+}
